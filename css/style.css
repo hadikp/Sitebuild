@@ -24,9 +24,9 @@
     
     border-radius: 10px;
     color: white;
-    height: 3.3rem;
+    height: 4.2rem;
     display: inline-block;   
-    width: 3.3rem;
+    width: 4.2rem;
     
 }
 
@@ -75,7 +75,7 @@
     
 }
 .text-lilac{
-    color: rgba(142,85,251,1);
+    color: rgba(142,85,251,1) !important;
 }
 
 .rectangle{
@@ -96,21 +96,21 @@
 }
 
 .rectangle-gray{
-    background-color: rgb(211, 210, 210);  
+    background-color: rgba(240,239,237,1);  
     display:inline-block;  
     height: 15rem;    
     width: 15rem;
 }
 
 .rectangle-gray2{
-    background-color: rgb(114, 113, 113);  
+    background-color: rgba(231,231,231,1);  
     display:inline-block;  
     height: 15rem;    
     width: 15rem;
 }
 
 .rectangle-gray:hover, .rectangle-gray2:hover{
-    background-color: rgb(216, 129, 250);
+    background-color: rgba(188,164,242,1);
     
 }
 
@@ -177,5 +177,10 @@
     background-color: #d49bf5;    
 }
 
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
 
 
