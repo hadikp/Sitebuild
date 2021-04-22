@@ -58,7 +58,7 @@
 }
 
 .card{
-    border: 0;    
+    border: 0;
 }
 
 .progress{
@@ -106,6 +106,74 @@
     display:inline-block;  
     height: 15rem;    
     width: 15rem;
+}
+
+.rectangle-gray:hover, .rectangle-gray2:hover{
+    background-color: rgb(216, 129, 250);
+    
+}
+
+.rectangle2{
+    background-color: lightpink;    
+    height: 30rem;    
+    width: 30rem;
+}
+
+.rectangle01{
+    background-color: rgb(230, 137, 199);     
+    padding: 5rem 2rem;    
+}
+
+.rectangle02{
+    background-color: rgb(124, 243, 177);     
+    padding: 5rem 2rem;
+}
+
+.rectangle03{
+    background-color: rgb(243, 169, 84);     
+    padding: 5rem 2rem;
+}
+
+.rectangle04{
+    background-color: rgb(49, 238, 252); 
+    padding: 5rem 2rem;
+}
+
+.bg-lilac2{
+    background-color: #bc58ff;
+}
+
+.circle{    
+    border-radius: 99em;
+    height: 4rem;
+    display: inline-block;
+    margin-top: -4rem;   
+    width: 4rem;
+        
+}
+
+.circle1{    
+    
+    background-color: #bc70fa;    
+}
+
+.circle2{    
+    
+    background-color: #f8b4ed;    
+}
+
+.circle3{    
+    height: 4rem;
+    display: inline-block;   
+    width: 4rem;
+    background-color: #d49bf5;    
+}
+
+.circle4{    
+    height: 4rem;
+    display: inline-block;   
+    width: 4rem;
+    background-color: #d49bf5;    
 }
 
 
