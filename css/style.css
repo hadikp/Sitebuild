@@ -1,5 +1,6 @@
-.btn-primary{
-    background-color: rgb(179, 113, 179);
+.btn-prim{
+    background-color: rgba(142,85,251,1);
+    color: bisque;
 }
 
 .icon-blue{
@@ -13,9 +14,9 @@
     
     border-radius: 99em;
     color: white;
-    height: 3.3rem;
+    height: 4.2rem;
     display: inline-block;   
-    width: 3.3rem;
+    width: 4.2rem;
     
 }
 
@@ -30,31 +31,31 @@
 }
 
 .bg11{
-    background: linear-gradient( #eed12b, #f1e2b9);    
+    background: linear-gradient(135deg, rgba(242,159,96,1) , rgba(243,182,101,1));    
 }
 
 .bg12{
-    background: linear-gradient( #2bee83, #bef1b9);    
+    background: linear-gradient(135deg, rgba(19,204,214,1), rgba(14,222,202,1));    
 }
 
 .bg13{
-    background: linear-gradient( #a02bee, #dfb9f1);    
+    background: linear-gradient(135deg, rgba(159,99,249,1), rgba(229,168,226,1));    
 }
 
 .bg21{
-    background: linear-gradient( #a02bee, #dfb9f1); 
+    background: linear-gradient(135deg,rgba(159,104,249,1), rgba(237,179,220,1)); 
 }
 
 .bg22{
-    background: linear-gradient( #ee2bcd, #f1b9da);    
+    background: linear-gradient(135deg, rgba(254,100,188,1), rgba(242,203,228,1));    
 }
 
 .bg23{
-    background: linear-gradient( #ee2bcd, #f1b9da);    
+    background: linear-gradient(135deg, rgba(255,109,146,1), rgba(252,231,240,1));    
 }
 
 .bg24{
-    background: linear-gradient( #2bee83, #bef1b9);    
+    background: linear-gradient(135deg, rgba(80,201,196,1), rgba(192,250,241,1));    
 }
 
 .card{
@@ -66,28 +67,28 @@
 }
 
 .bg-lilac{
-    background-color: #b1b7f5;
+    background-color: rgba(248,242,254,1);
 }
 
 .bg-lilac-button{
-    background-color: #8b94f1;
+    background-color: rgba(248,233,255,1);
+    
 }
-
-.text-primary{
-    color: #7a84f3;
+.text-lilac{
+    color: rgba(142,85,251,1);
 }
 
 .rectangle{
-    background-color: lightpink;
-    border: 7px solid rgb(209, 209, 209);
-    box-shadow: -20px -20px #bef1b9;
+    background-color: rgba(191,254,243,1);
+    border: 7px solid rgba(243,238,246,1);
+    box-shadow: -20px -20px rgba(134,96,209,1);
     height: 30rem;
     margin: -10rem 0 0 5rem;
     width: 30rem;
 }
 
 .bg-lilac-header{
-    background: linear-gradient(to right, #55b5f5, #cd6ef3);
+    background: linear-gradient(to right, rgba(149,177,250,1), rgba(141,86,252,1));
 }
 
 .bg-image{
