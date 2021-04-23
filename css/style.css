@@ -1,37 +1,37 @@
+/* HEADER */
 .btn-prim{
     background-color: rgba(142,85,251,1);
     color: bisque;
 }
 
-.icon-blue{
-    
+.button-make{
+    font-size: 0.8rem;
+}
+
+.icon-blue{    
     color: transparent;
     background-clip:text;
     -webkit-background-clip: text;
 }
 
-.bg{
-    
+.bg{    
     border-radius: 99em;
     color: white;
-    height: 4.2rem;
     display: inline-block;   
-    width: 4.2rem;
-    
+    height: 4.2rem;
+    width: 4.2rem;    
 }
 
-.bg2{
-    
+.bg2{    
     border-radius: 10px;
     color: white;
-    height: 4.2rem;
+    height: 4rem;
     display: inline-block;   
-    width: 4.2rem;
-    
+    width: 4rem;    
 }
 
 .bg11{
-    background: linear-gradient(135deg, rgba(242,159,96,1) , rgba(243,182,101,1));    
+    background: linear-gradient(135deg, rgb(241, 148, 76) , rgb(238, 191, 130));    
 }
 
 .bg12{
@@ -39,7 +39,7 @@
 }
 
 .bg13{
-    background: linear-gradient(135deg, rgba(159,99,249,1), rgba(229,168,226,1));    
+    background: linear-gradient(135deg, rgba(159,99,249,1), rgb(247, 202, 244));    
 }
 
 .bg21{
@@ -71,7 +71,7 @@
 }
 
 .bg-lilac-button{
-    background-color: rgba(248,233,255,1);
+    background-color: rgba(238, 221, 253, 0.6);
     
 }
 .text-lilac{
@@ -80,11 +80,19 @@
 
 .rectangle{
     background-color: rgba(191,254,243,1);
-    border: 7px solid rgba(243,238,246,1);
-    box-shadow: -20px -20px rgba(134,96,209,1);
-    height: 30rem;
-    margin: -10rem 0 0 5rem;
-    width: 30rem;
+    border: 12px solid rgba(243,238,246,1);
+    box-shadow: -25px -25px rgba(134,96,209,1);
+    height: 80vw;
+    margin: 2rem;
+    width: 80vw;
+}
+
+@media only screen and (min-width: 992px){
+    .rectangle{           
+        height: 30rem;
+        margin: -8rem 0 0 5rem;
+        width: 30rem;
+    }
 }
 
 .bg-lilac-header{
@@ -93,40 +101,56 @@
 
 .bg-image{
     background-color: black;
+    height: 100vh;
 }
 
 .rectangle-gray{
     background-color: rgba(240,239,237,1);  
-    display:inline-block;  
-    height: 15rem;    
-    width: 15rem;
+    
+    height: 5rem;    
+    width: 5rem;
 }
 
 .rectangle-gray2{
     background-color: rgba(231,231,231,1);  
-    display:inline-block;  
-    height: 15rem;    
-    width: 15rem;
+      
+    height: 5rem;    
+    width: 5rem;
 }
 
 .rectangle-gray:hover, .rectangle-gray2:hover{
-    background-color: rgba(188,164,242,1);
-    
+    background-color: rgba(188,164,242,1);    
 }
+
+@media only screen and (min-width: 992px){
+    .rectangle-gray, .rectangle-gray2{     
+        height: 27rem;    
+        width: 27rem;
+    }
+}
+
 
 .rectangle2{
     background-color: lightpink;    
-    height: 30rem;    
-    width: 30rem;
+    height: 15rem;   
+    margin: 1rem; 
+    width: 15rem;
+}
+
+@media only screen and (min-width: 992px){
+    .rectangle2{                     
+        height: 25rem;    
+        width: 25rem;
+    }
 }
 
 .rectangle01{
-    background-color: rgb(230, 137, 199);     
+    background-color: rgb(255, 158, 223);     
     padding: 5rem 2rem;    
 }
 
 .rectangle02{
-    background-color: rgb(124, 243, 177);     
+    background-color: rgb(140, 255, 236);     
     padding: 5rem 2rem;
 }
 
@@ -136,14 +160,25 @@
 }
 
 .rectangle04{
-    background-color: rgb(49, 238, 252); 
+    background-color: rgb(89, 212, 250); 
     padding: 5rem 2rem;
 }
 
-.bg-lilac2{
-    background-color: #bc58ff;
+.bg-lilac-dark{
+    background-color: #8655f8;
 }
 
+.header-height{
+    height: 8rem;
+}
+
+.header-color{    
+    color: #ffe4c4;
+}
+
+.height100{
+    height: 80vh;
+}
 .circle{    
     border-radius: 99em;
     height: 4rem;
@@ -177,10 +212,32 @@
     background-color: #d49bf5;    
 }
 
+.circle5{    
+    border-radius: 99em;
+    height: 4.5rem;     
+    width: 4.5rem;
+        
+}
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
 }
 
+.negMargin{
+    margin-left: -4rem !important;
+    
+}
 
+input{
+    height: 4rem;
+    margin-top: 2rem;
+    width: 25rem;
+
+}
+
+input::placeholder{
+    font-size: 1rem;
+    padding-left: 1.5rem;
+}
