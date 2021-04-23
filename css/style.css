@@ -131,7 +131,7 @@
 
 
 .rectangle2{
-    background-color: lightpink;    
+    background-color: rgba(254,232,245,1);    
     height: 15rem;   
     margin: 1rem; 
     width: 15rem;
@@ -145,27 +145,27 @@
 }
 
 .rectangle01{
-    background-color: rgb(255, 158, 223);     
+    background-color: rgba(239,136,254,1);     
     padding: 5rem 2rem;    
 }
 
 .rectangle02{
-    background-color: rgb(140, 255, 236);     
+    background-color:rgba(0,215,207,1);     
     padding: 5rem 2rem;
 }
 
 .rectangle03{
-    background-color: rgb(243, 169, 84);     
+    background-color:rgba(241,183,110,1);     
     padding: 5rem 2rem;
 }
 
 .rectangle04{
-    background-color: rgb(89, 212, 250); 
+    background-color: rgba(90,196,254,1); 
     padding: 5rem 2rem;
 }
 
 .bg-lilac-dark{
-    background-color: #8655f8;
+    background-color: rgba(141,91,252,1);
 }
 
 .header-height{
@@ -190,26 +190,26 @@
 
 .circle1{    
     
-    background-color: #bc70fa;    
+    background-color: rgba(243,239,254,1);    
 }
 
 .circle2{    
     
-    background-color: #f8b4ed;    
+    background-color: rgba(255,243,247,1);    
 }
 
 .circle3{    
     height: 4rem;
     display: inline-block;   
     width: 4rem;
-    background-color: #d49bf5;    
+    background-color: rgba(255,243,235,1);    
 }
 
 .circle4{    
     height: 4rem;
     display: inline-block;   
     width: 4rem;
-    background-color: #d49bf5;    
+    background-color: rgba(242,255,246,1);    
 }
 
 .circle5{    
