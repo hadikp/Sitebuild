@@ -39,10 +39,10 @@
     background: linear-gradient(135deg, rgba(159,99,249,1), rgb(247, 202, 244));    
 }
 
-.hatterpotty{
-    background-image: url("../assets/kepek/pontok.png");
+.hatterpotty{    
+    background-image: url("../assets/kepek/kispontok.png");
     background-repeat: no-repeat;
-    
+    background-position: 50% 10%;    
 }
 
 /* Attractiv Animations */
@@ -88,17 +88,30 @@
 
 .rectangle{
     background-color: rgba(191,254,243,1);
-    border: 12px solid rgba(243,238,246,1);
-    box-shadow: -25px -25px rgba(134,96,209,1);
+    border: 12px solid rgba(243,238,246,1);    
     height: 80vw;
-    margin: 2rem;
+    left: 2rem;        
+    position: absolute;
+    top: 2rem;    
+    width: 80vw;
+}
+
+.rectangle-shadow{
+    background: linear-gradient(215deg, rgba(191,254,243,1), rgba(134,96,209,1));   
+    height: 80vw;
+    margin-top: 2rem;
+    position: relative;
     width: 80vw;
 }
 
 @media only screen and (min-width: 992px){
     .rectangle{           
+        height: 30rem;        
+        width: 30rem;
+    }
+    .rectangle-shadow{        
         height: 30rem;
-        margin: -8rem 0 0 5rem;
+        margin-top: -6rem;
         width: 30rem;
     }
 }
@@ -162,6 +175,14 @@
         height: 27rem;    
         width: 27rem;
     }
+}
+
+.hover-text{
+    display: none;
+}
+
+.rectangle-gray:hover+div, .rectangle-gray-dark:hover+div{
+    display: block;    
 }
 
 /* Simplified process */
