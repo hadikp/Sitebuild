@@ -46,7 +46,7 @@
 .hatterpotty{ 
     background-image: url("../assets/kepek/kispontok.png");
     background-repeat: no-repeat;
-    background-position: 50% 10%;    
+    background-position: 50% 0%;    
 }
 
 /* Attractiv Animations */
@@ -184,7 +184,11 @@
 }
 
 .hover-text{
-    display: none;
+    color: rgba(240,239,237,1);
+}
+
+.hover-text2{
+    color: rgba(231,231,231,1);
 }
 
 .rectangle-gray:hover+div, .rectangle-gray-dark:hover+div{
