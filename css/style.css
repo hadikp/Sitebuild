@@ -13,6 +13,10 @@
     color: transparent;
     background-clip:text;
     -webkit-background-clip: text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
 }
 
 .card{
@@ -24,7 +28,7 @@
     color: white;
     display: inline-block;   
     height: 4.2rem;
-    width: 4.2rem;    
+    width: 4.2rem; 
 }
 
 .bg11{
@@ -40,7 +44,7 @@
 }
 
 .hatterpotty{
-    background-image: url("../assets/kepek/pontok.png");
+    background-image: url("../assets/kepek/kispontok.png");
     background-repeat: no-repeat;
     
 }
@@ -54,7 +58,9 @@
     border-radius: 10px;
     color: white;
     height: 4rem;
-    display: inline-block;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 4rem;    
 }
 
