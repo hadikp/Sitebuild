@@ -14,6 +14,16 @@
 }
 
 /* Our Approach */
+.whole-page {
+    width: 100%;
+}
+
+.scroll{
+    height: 20vw;
+    width: 40vw;    
+    overflow: auto;
+    
+}
 .icon-transparent{    
     color: transparent;
     background-clip:text;
