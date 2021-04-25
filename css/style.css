@@ -30,7 +30,7 @@
 
 .bg{    
     border-radius: 99em;
-    color: white;
+    color: rgb(255, 255, 255);
     display: inline-block;   
     height: 4.2rem;
     width: 4.2rem; 
@@ -49,7 +49,7 @@
 }
 
 .hatterpotty{ 
-    background-image: url("../assets/kepek/kispontok.png");
+    background-image: url("../assets/images/kispontok.png");
     background-repeat: no-repeat;
     background-position: 50% 0%;    
 }
@@ -154,7 +154,7 @@
 
 .bg-image{
     background-color: black;
-    background-image: url("../assets/kepek/Ellipse_lilac.png");
+    background-image: url("../assets/images/Ellipse_lilac.png");
     background-repeat: no-repeat;
     background-position: 10% 50%;     
     height: 80vh;
@@ -179,14 +179,14 @@
 /* Featured works */
 .rectangle-gray{
     background-color: rgba(240,239,237,1);      
-    height: 5rem;    
-    width: 5rem;
+    height: 9rem;    
+    width: 9rem;
 }
 
 .rectangle-gray-dark{
     background-color: rgba(231,231,231,1);        
-    height: 5rem;    
-    width: 5rem;
+    height: 9rem;    
+    width: 9rem;
 }
 
 .rectangle-gray:hover, .rectangle-gray-dark:hover{
@@ -202,6 +202,7 @@
 
 .border-gray{
     border: 1px solid rgba(240,239,237,1);
+    
 }
 
 .border-gray-dark{
@@ -223,36 +224,45 @@
 /* Simplified process */
 .rectangle2{
     background-color: rgba(254,232,245,1);    
-    height: 15rem;   
-    margin: 1rem; 
-    width: 15rem;
+    height: 10rem;   
+    margin: 0 auto; 
+    width: 10rem;
 }
 
 @media only screen and (min-width: 992px){
     .rectangle2{                     
-        height: 25rem;    
+        height: 25rem;  
+        margin: 1rem;  
         width: 25rem;
     }
 }
 
 .rectangle01{
     background-color: rgba(239,136,254,1);     
-    padding: 5rem 2rem;    
+    padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
 }
 
 .rectangle02{
     background-color:rgba(0,215,207,1);     
     padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
 }
 
 .rectangle03{
     background-color:rgba(241,183,110,1);     
     padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
 }
 
 .rectangle04{
     background-color: rgba(90,196,254,1); 
     padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
 }
 
 .bg-lilac-dark{
@@ -274,7 +284,7 @@
     border-radius: 50em;
     padding: 0.5rem;
     position: relative;
-    left: 7rem;
+    left: 5rem;
     top: 27rem;         
     }
 }
@@ -292,19 +302,34 @@
     top: 1.5rem;
 }
 
-/* Strength in numbers workspace */
-.bg-houses{    
-    background-image: url("../assets/kepek/strength_2.png");
+.bg-quote{
+    background-image: url("../assets/images/icon1X.png");
     background-repeat: no-repeat;
-    background-position: 50% 100%;
-    /* opacity: 0.2; */
+    background-position: 50% 0%;  
 }
 
-.bg-houses2{    
-    background-image: url("../assets/kepek/grup_building2.png");
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
-    /* opacity: 0.2; */
+/* Strength in numbers workspace */
+.bg-houses{    
+    left: 0vw;
+    opacity: 0.2;
+    position: relative;
+    top: -20rem;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 992px){
+    .bg-houses{    
+        left: 28vw;        
+        top: -20rem;        
+    }    
+}
+
+.bg-houses2{         
+    filter:grayscale(80%);
+    opacity: 0.1;
+    position: relative;
+    top: -20rem;
+    z-index: 1;
 }
 
 .circle{    
@@ -347,17 +372,11 @@
         
 }
 
-/* .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-} */
-
 .negMargin{
     margin-left: -4rem !important;    
 }
 
-input{
+/* input{
     height: 4rem;
     margin-top: 2rem;
     width: 25rem;
@@ -367,3 +386,4 @@ input::placeholder{
     font-size: 1rem;
     padding-left: 1.5rem;
 }
+ */
