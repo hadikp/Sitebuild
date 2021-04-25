@@ -30,7 +30,7 @@
 
 .bg{    
     border-radius: 99em;
-    color: white;
+    color: rgb(255, 255, 255);
     display: inline-block;   
     height: 4.2rem;
     width: 4.2rem; 
@@ -202,6 +202,7 @@
 
 .border-gray{
     border: 1px solid rgba(240,239,237,1);
+    
 }
 
 .border-gray-dark{
@@ -237,22 +238,30 @@
 
 .rectangle01{
     background-color: rgba(239,136,254,1);     
-    padding: 5rem 2rem;    
+    padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
 }
 
 .rectangle02{
     background-color:rgba(0,215,207,1);     
     padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
 }
 
 .rectangle03{
     background-color:rgba(241,183,110,1);     
     padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
 }
 
 .rectangle04{
     background-color: rgba(90,196,254,1); 
     padding: 5rem 2rem;
+    height: 14rem;
+    width: 7rem;
 }
 
 .bg-lilac-dark{
@@ -292,19 +301,27 @@
     top: 1.5rem;
 }
 
-/* Strength in numbers workspace */
-.bg-houses{    
-    background-image: url("../assets/kepek/strength_2.png");
+.bg-quote{
+    background-image: url("../assets/kepek/icon1X.png");
     background-repeat: no-repeat;
-    background-position: 50% 100%;
-    /* opacity: 0.2; */
+    background-position: 50% 0%;  
 }
 
-.bg-houses2{    
-    background-image: url("../assets/kepek/grup_building2.png");
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
-    /* opacity: 0.2; */
+/* Strength in numbers workspace */
+.bg-houses{    
+    left: 28vw;
+    opacity: 0.2;
+    position: relative;
+    top: -20rem;
+    z-index: -1;
+}
+
+.bg-houses2{         
+    filter:grayscale(80%);
+    opacity: 0.15;
+    position: relative;
+    top: -20rem;
+    z-index: 1;
 }
 
 .circle{    
@@ -346,12 +363,6 @@
     width: 4.5rem;
         
 }
-
-/* .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-} */
 
 .negMargin{
     margin-left: -4rem !important;    
