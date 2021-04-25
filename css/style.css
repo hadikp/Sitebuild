@@ -49,7 +49,7 @@
 }
 
 .hatterpotty{ 
-    background-image: url("../assets/kepek/kispontok.png");
+    background-image: url("../assets/images/kispontok.png");
     background-repeat: no-repeat;
     background-position: 50% 0%;    
 }
@@ -154,7 +154,7 @@
 
 .bg-image{
     background-color: black;
-    background-image: url("../assets/kepek/Ellipse_lilac.png");
+    background-image: url("../assets/images/Ellipse_lilac.png");
     background-repeat: no-repeat;
     background-position: 10% 50%;     
     height: 80vh;
@@ -303,7 +303,7 @@
 }
 
 .bg-quote{
-    background-image: url("../assets/kepek/icon1X.png");
+    background-image: url("../assets/images/icon1X.png");
     background-repeat: no-repeat;
     background-position: 50% 0%;  
 }
@@ -376,7 +376,7 @@
     margin-left: -4rem !important;    
 }
 
-input{
+/* input{
     height: 4rem;
     margin-top: 2rem;
     width: 25rem;
@@ -386,3 +386,4 @@ input::placeholder{
     font-size: 1rem;
     padding-left: 1.5rem;
 }
+ */
