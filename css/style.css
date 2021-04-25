@@ -179,14 +179,14 @@
 /* Featured works */
 .rectangle-gray{
     background-color: rgba(240,239,237,1);      
-    height: 5rem;    
-    width: 5rem;
+    height: 9rem;    
+    width: 9rem;
 }
 
 .rectangle-gray-dark{
     background-color: rgba(231,231,231,1);        
-    height: 5rem;    
-    width: 5rem;
+    height: 9rem;    
+    width: 9rem;
 }
 
 .rectangle-gray:hover, .rectangle-gray-dark:hover{
@@ -224,14 +224,15 @@
 /* Simplified process */
 .rectangle2{
     background-color: rgba(254,232,245,1);    
-    height: 15rem;   
-    margin: 1rem; 
-    width: 15rem;
+    height: 10rem;   
+    margin: 0 auto; 
+    width: 10rem;
 }
 
 @media only screen and (min-width: 992px){
     .rectangle2{                     
-        height: 25rem;    
+        height: 25rem;  
+        margin: 1rem;  
         width: 25rem;
     }
 }
@@ -283,7 +284,7 @@
     border-radius: 50em;
     padding: 0.5rem;
     position: relative;
-    left: 7rem;
+    left: 5rem;
     top: 27rem;         
     }
 }
@@ -309,16 +310,23 @@
 
 /* Strength in numbers workspace */
 .bg-houses{    
-    left: 28vw;
+    left: 0vw;
     opacity: 0.2;
     position: relative;
     top: -20rem;
     z-index: -1;
 }
 
+@media only screen and (min-width: 992px){
+    .bg-houses{    
+        left: 28vw;        
+        top: -20rem;        
+    }    
+}
+
 .bg-houses2{         
     filter:grayscale(80%);
-    opacity: 0.15;
+    opacity: 0.1;
     position: relative;
     top: -20rem;
     z-index: 1;
