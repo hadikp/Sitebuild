@@ -139,12 +139,24 @@
 
 @media only screen and (min-width: 992px){
     .rectangle{           
+        height: 34vw;        
+        width: 34vw;
+    }
+    .rectangle-shadow{        
+        height: 34vw;
+        margin: -3rem 0 0 2rem;;
+        width: 34vw;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .rectangle{           
         height: 30rem;        
         width: 30rem;
     }
     .rectangle-shadow{        
         height: 30rem;
-        margin: -8rem 0 0 2rem;;
+        margin: -5rem 0 0 2rem;;
         width: 30rem;
     }
 }
@@ -176,38 +188,38 @@
 
 @media only screen and (min-width: 992px){
     .ring{        
-    border: 8px solid rgb(255, 209, 183);
-    display: inline-block;
-    border-radius: 50em;
-    padding: 0.8rem;
-    position: relative;
-    left: 7rem;
-    top: 32rem;         
+        border: 8px solid rgb(255, 209, 183);
+        display: inline-block;
+        border-radius: 50em;
+        padding: 0.8rem;
+        position: relative;
+        right: 0.3rem;
+        top: 40rem;         
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .ring{            
+        right: 0.5rem;
+        top: 34rem;         
     }
 }
 
 /* Featured works */
 .rectangle-gray{
     background-color: rgba(240,239,237,1);      
-    height: 9rem;    
-    width: 9rem;
+    height: 20vw;    
+    width: 20vw;
 }
 
 .rectangle-gray-dark{
     background-color: rgba(231,231,231,1);        
-    height: 9rem;    
-    width: 9rem;
+    height: 20vw;    
+    width: 20vw;
 }
 
 .rectangle-gray:hover, .rectangle-gray-dark:hover{
     background-color: rgba(188,164,242,1);    
-}
-
-@media only screen and (min-width: 992px){
-    .rectangle-gray, .rectangle-gray-dark{     
-        height: 27rem;    
-        width: 27rem;
-    }
 }
 
 .border-gray{
@@ -233,10 +245,15 @@
 
 /* Simplified process */
 .rectangle2{
-    background-color: rgba(254,232,245,1);    
-    height: 10rem;   
+    /* background-color: rgba(254,232,245,1);     */
+    height: 80vw;   
     margin: 0 auto; 
-    width: 10rem;
+    width: 80vw;
+}
+
+.rectangeImage{
+    height: 80vw;
+    width: 80vw;
 }
 
 @media only screen and (min-width: 992px){
@@ -300,10 +317,36 @@
 }
 
 /* What our customers... */
+.marginTop{
+    margin-top: 12rem;
+}
+
+.points{
+    width: 16vw;
+}
+
+@media only screen and (min-width: 992px){
+    .points{
+        width: 16vw;
+    }
+}
+
 .lilacArrowLeft{
     position: relative;
-    left: 18rem;
+    left: 10rem;
     top: -1rem;
+}
+
+@media only screen and (min-width: 1200px){
+    .lilacArrowLeft{        
+        left: 12rem;        
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .lilacArrowLeft{        
+        left: 15rem;        
+    }
 }
 
 .lilacArrowRight{
@@ -320,26 +363,26 @@
 
 /* Strength in numbers workspace */
 .bg-houses{    
-    left: 0vw;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
     opacity: 0.2;
-    position: absolute;
-    top: -20rem;
+    position: absolute;    
     z-index: -1;
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 1200px){
     .bg-houses{    
-        left: 28vw;        
-        top: -20rem;        
+        left: 18vw;                 
     }    
 }
 
-.bg-houses2{         
+.bg-houses2{    
+    bottom: 1rem;     
     filter:grayscale(80%);
     opacity: 0.1;
     max-width: 100%;
-    position: absolute;
-    top: -20rem;
+    position: absolute;    
     z-index: 1;
 }
 
@@ -348,43 +391,29 @@
     height: 4rem;
     display: inline-block;
     margin-top: -4rem;   
-    width: 4rem;
-        
+    width: 4rem;        
 }
 
-.circle1{    
-    
+.circle1{        
     background-color: rgba(243,239,254,1);    
 }
 
-.circle2{    
-    
+.circle2{       
     background-color: rgba(255,243,247,1);    
 }
 
-.circle3{    
-    height: 4rem;
-    display: inline-block;   
-    width: 4rem;
+.circle3{        
     background-color: rgba(255,243,235,1);    
 }
 
-.circle4{    
-    height: 4rem;
-    display: inline-block;   
-    width: 4rem;
+.circle4{        
     background-color: rgba(242,255,246,1);    
 }
 
 .circle5{    
     border-radius: 99em;
     height: 4.5rem;     
-    width: 4.5rem;
-        
-}
-
-.negMargin{
-    margin-left: -4rem !important;    
+    width: 4.5rem;        
 }
 
 /* input{
