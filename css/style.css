@@ -66,7 +66,7 @@
 
 /* Attractiv Animations */
 .bg-lilac{
-    background-color: rgba(248,242,254,1);
+    background-color: rgba(248,242,254,1);    
 }
 
 .redArrow{
@@ -123,9 +123,9 @@
     background-color: rgba(191,254,243,1);
     border: 12px solid rgba(243,238,246,1);    
     height: 80vw;
-    left: 2rem;        
+    left: 1rem;        
     position: absolute;
-    top: 2rem;    
+    top: 1rem;    
     width: 80vw;
 }
 
@@ -243,23 +243,20 @@
     display: block;    
 }
 
-/* Simplified process */
-.rectangle2{
-    /* background-color: rgba(254,232,245,1);     */
-    height: 80vw;   
-    margin: 0 auto; 
-    width: 80vw;
-}
-
-.rectangeImage{
-    height: 80vw;
-    width: 80vw;
+.rectangleImage{
+    height: 65vw;
+    width: 65vw;
 }
 
 @media only screen and (min-width: 992px){
     .rectangle2{                     
         height: 25rem;  
         margin: 1rem;  
+        width: 25rem;
+    }
+
+    .rectangleImage{
+        height: 25rem;
         width: 25rem;
     }
 }
@@ -414,6 +411,18 @@
     border-radius: 99em;
     height: 4.5rem;     
     width: 4.5rem;        
+}
+
+.zIndex{
+    z-index: 2;
+}
+
+.footerLink{
+    color: rgb(0, 0, 0);    
+}
+
+.footerLink:hover{
+    color: rgb(105, 24, 255);    
 }
 
 /* input{
